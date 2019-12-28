@@ -1,0 +1,28 @@
+Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object. 
+It is an important part of OOPs (Object Oriented programming system). The idea behind inheritance in Java is that you can create new classes that are built upon
+existing classes.
+
+ADVANTAGES
+
+One of the key benefits of inheritance is to minimize the amount of duplicate code in an application by sharing common code amongst several subclasses. Where equivalent code exists in two related classes, the hierarchy can usually be refactored to move the common code up to a mutual superclass. 
+This also tends to result in a better organization of code and smaller, simpler compilation units.
+Inheritance can also make application code more flexible to change because classes that inherit from a common superclass can be used interchangeably. 
+If the return type of a method is superclass
+
+Reusability - facility to use public methods of base class without rewriting the same.
+
+Extensibility - extending the base class logic as per business logic of the derived class.
+
+Data hiding - base class can decide to keep some data private so that it cannot be altered by the derived class
+
+Overriding -With inheritance, we will be able to override the methods of the base class so that meaningful implementation of the base class method can be designed 
+in the derived class.
+
+DISADVANTAGE
+
+One of the main disadvantages of inheritance in Java (the same in other object-oriented languages) is the increased time/effort it takes the program to jump through 
+all the levels of overloaded classes. If a given class has ten levels of abstraction above it, then it will essentially take ten jumps to run through a function 
+defined in each of those classes
+Main disadvantage of using inheritance is that the two classes (base and inherited class) get tightly coupled. This means one cannot be used independent of each other.
+Also with time, during maintenance adding new features both base as well as derived classes are required to be changed. If a method signature is changed then we will be affected in both cases (inheritance & composition)
+If a method is deleted in the "base class" or aggregate, then we will have to re-factor in case of using that method.Here things can get a bit complicated in case of inheritance because our programs will still compile, but the methods of the subclass will no longer be overriding base class methods. These methods will become independent methods in their own right.

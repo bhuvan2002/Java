@@ -1,0 +1,27 @@
+Encapsulation is one of the four fundamental OOP concepts. The other three are inheritance, polymorphism, and abstraction.
+
+Encapsulation in Java is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit. In encapsulation, the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class. Therefore, it is also known as data hiding.
+
+To achieve encapsulation in Java −
+
+Declare the variables of a class as private.
+
+Provide public setter and getter methods to modify and view the variables values.
+
+ADVANTAGES 
+
+Data Hiding – It can provide the programmer to hide the inner classes and the user to give access only to the desired codes.
+It allows the programmer to not allow the user to know how variables and data store.
+
+Getter and Setter Methods – Private member can only be accessed within the same class. An outside class can not access the data members of that class.
+If you need to access these variables, you have to use public “getter” and “setter” methods.
+
+Flexibility – With this, we can make the data as read-only or write-only as we require it to be. It also improves the maintainability and flexibility of code.
+
+Reusability – It allows the user to a programmer to use the existing code again and again in an effective way.
+Testing of the code – Ease of testing becomes easy. So it is better for Unit testing
+
+DISADVANTAGES
+
+The disadvantages are the inefficiency of the extra indirection, as you pointed out, and the fact that the compiler doesn't enforce it.
+ All it takes is your worst programmer using one unencapsulated reference to destroy the benefits

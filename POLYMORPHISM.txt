@@ -1,0 +1,23 @@
+POLYMORPHISM
+
+Polymorphism in Java is a concept by which we can perform a single action in different ways. ... 
+So polymorphism means many forms. There are two types of polymorphism in Java: compile-time polymorphism and runtime polymorphism.
+ We can perform polymorphism in java by method overloading and method overriding.
+
+ADVANTAGES
+
+1.Method overloading allows methods that perform similar or closely related functions to be accessed through a common name. For example, a program performs 
+operations on an array of numbers which can be int, float, or double type. Method overloading allows you to define three methods with the same name and different 
+types of parameters to handle the array operations.
+
+2.Method overloading can be implemented on constructors allowing different ways to initialize objects of a class. This enables you to define multiple constructors for handling different types of initializations.
+
+3.Method overriding allows a sub class to use all the general definitions that a super class provides and add specialized definitions through overridden methods.
+
+4.Method overriding works together with inheritance to enable code reuse of existing classes without the need for re-compilation.
+
+DISADVANTAGE
+
+One of the disadvantages of polymorphism is that developers find it difficult to implement polymorphism in codes.
+Run time polymorphism can lead to the performance issue as machine needs to decide which method or variable to invoke so it basically degrades the
+ performances as decisions are taken at run time.
